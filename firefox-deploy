@@ -1,0 +1,10 @@
+#!/bin/bash
+
+function mk () { firefox -CreateProfile $1; }
+
+mk hard-default
+mk banking
+mk code
+mk webapp
+
+
